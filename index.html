@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELP BONJA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <main id="conteiner">
+        <section id="calculator">
+            <form id="form">
+                <h1 id="title">
+                    Calculadora de Nota - UFSC
+                </h1>
+                <h3>
+                    Este calculo não é oficial porem segue as regras estabelecidas pela direcao
+                </h3>
+                <div class="input-box">
+                    <label for="questionsquantative">
+                        Quantidade de questões:
+                    </label>
+                    <div class="input-field">
+                        <input type="number" id="questionsquantative" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="questionsquantative">
+                        Nota MAXIMA ( 10se não for atividade especial )
+                    </label>
+                    <div class="input-field">
+                        <input type="number" id="maxnote" required>
+                    </div>
+                </div>
+                <div>
+                    <h1>
+                        NUMERO DE QUESTÕES COM ...
+                    </h1>
+                    <div class="input-box">
+                        <label for="1/5">
+                            1/5
+                        </label>
+                        <div class="input-field">
+                            <input type="number" id="1/5" required>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label for="2/5">
+                            2/5
+                        </label>
+                        <div class="input-field">
+                            <input type="number" id="2/5" required>
+                        </div>
+                    </div> <div class="input-box">
+                        <label for="3/5">
+                            3/5
+                        </label>
+                        <div class="input-field">
+                            <input type="number" id="3/5" required>
+                        </div>
+                    </div> <div class="input-box">
+                        <label for="4/5">
+                            4/5
+                        </label>
+                        <div class="input-field">
+                            <input type="number" id="4/5" required>
+                        </div>
+                    </div> <div class="input-box">
+                        <label for="5/5">
+                            5/5
+                        </label>
+                        <div class="input-field">
+                            <input type="number" id="5/5" required>
+                        </div>
+                    </div>
+                </div>
+                <button id="calculate">
+                    Calcular
+                </button>
+            </form>
+
+            <div id="infos">
+                <div id="midia">
+                    <span id="value"></span>
+                    <span> Sua NOTA</span>
+                </div>
+                <DIv id="description">
+                        <span></span>
+                </DIv>
+
+            </div>
+
+        </section>
+        <section id="results">
+
+        </section>
+    </main>
+    
+</body>
+</html>
